@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { IconName } from "react-icons/fa";
+import { IconName,FaUserCircle } from "react-icons/fa";
+import userEvent from '@testing-library/user-event';
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,7 +38,7 @@ const NavBar = () => {
       </div>
     </button>
     <button className="btn btn-ghost btn-circle">
-      
+   <Link className='text-4xl rounded'><FaUserCircle></FaUserCircle></Link>
     </button>
   </div>
 </div>
