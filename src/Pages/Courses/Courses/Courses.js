@@ -5,17 +5,16 @@ import LeftSideNav from "../LeftSideNav/LeftSideNav";
 const Courses = () => {
   return (
     <div>
-      <div class="grid grid-cols-4 gap-4">
-        <div class="col-span-3">
-          <div class="grid grid-cols-3 gap-4">
-          <CourseDetails />
+      <section class="relative bg-[url(https://c1.wallpaperflare.com/preview/741/52/995/old-books-book-books-old.jpg)] bg-cover bg-center bg-no-repeat">
+        <div className="grid grid-cols-9">
+          <div className="grid grid-cols-3 col-span-7">
+              {
+                
+              }
           </div>
-         
+          <div className="grid col-span-2"></div>
         </div>
-        <div class="...">
-          <LeftSideNav />
-        </div>
-      </div>
+      </section>
     </div>
   );
 };
